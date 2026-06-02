@@ -600,6 +600,8 @@ require("lazy").setup({
 					"vimdoc",
 					"python",
 					"latex",
+					"go",
+					"make",
 				},
 				-- Autoinstall languages that are not installed
 				auto_install = true,
