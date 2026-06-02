@@ -90,6 +90,7 @@ return {
 				url_builders = {
 					["gitlab.mvk.com"] = repolink.url_builder_for_gitlab("https://gitlab.mvk.com"),
 					["gitlab.corp.mail.ru"] = repolink.url_builder_for_gitlab("https://gitlab.corp.mail.ru"),
+					["git.p.ecnl.ru"] = repolink.url_builder_for_gitlab("https://git.p.ecnl.ru"),
 				},
 			})
 		end,
