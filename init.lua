@@ -578,6 +578,8 @@ require("lazy").setup({
 		dependencies = { "nvim-treesitter/nvim-treesitter-textobjects" },
 		-- [[ Configure Treesitter ]] See `:help nvim-treesitter`
 		config = function()
+			--[[
+      -- an example of adding custom tree-sitter parser
 			local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
 			parser_config.vktl = {
 				install_info = {
@@ -586,6 +588,7 @@ require("lazy").setup({
 					generate_requires_npm = false,
 				},
 			}
+      ]]
 			require("nvim-treesitter.configs").setup({
 				ensure_installed = {
 					"bash",
@@ -694,11 +697,13 @@ require("lazy").setup({
 })
 
 require("my-keymaps")
+--[[
 vim.filetype.add({
 	extension = {
 		tl = "vktl",
 	},
 })
+]]
 
 -- Highlight trailing whitespace
 vim.cmd([[highlight ExtraWhitespace ctermbg=red guibg=red]])
