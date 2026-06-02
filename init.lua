@@ -574,6 +574,7 @@ require("lazy").setup({
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",
 		main = "nvim-treesitter.configs", -- Sets main module to use for opts
+		tag = "v0.10.0",
 		dependencies = { "nvim-treesitter/nvim-treesitter-textobjects" },
 		-- [[ Configure Treesitter ]] See `:help nvim-treesitter`
 		config = function()
