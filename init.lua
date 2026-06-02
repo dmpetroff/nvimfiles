@@ -599,6 +599,7 @@ require("lazy").setup({
 					"luadoc",
 					"markdown",
 					"markdown_inline",
+					"toml",
 					"query",
 					"vim",
 					"vimdoc",
