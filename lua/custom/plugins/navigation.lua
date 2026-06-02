@@ -106,6 +106,7 @@ return {
 	-- see https://www.josean.com/posts/nvim-treesitter-and-textobjects
 	{
 		"nvim-treesitter/nvim-treesitter-textobjects",
+		commit = "a9742cbc1f95db9eaf3293bf8cd0622ca36542bb",
 		dependencies = { "nvim-treesitter/nvim-treesitter" },
 		lazy = false,
 		main = "nvim-treesitter.configs",

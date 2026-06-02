@@ -72,6 +72,7 @@ return {
 	-- },
 	{
 		"uhs-robert/oasis.nvim",
+		commit = "63714fe416cac7707ebe0d044dd40921f66f6b9a",
 		lazy = false,
 		priority = 1000,
 		config = function()
