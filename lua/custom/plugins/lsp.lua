@@ -21,7 +21,7 @@ local servers = {
 	ocamllsp = { manual_install = true },
 	-- C/C++
 	cmake = true,
-	clangd = { cmd = { "/usr/lib/llvm/21/bin/clangd" }, manual_install = true },
+	clangd = { cmd = { "clangd" }, manual_install = true },
 	-- LaTeX
 	texlab = true,
 	latexindent = true,
